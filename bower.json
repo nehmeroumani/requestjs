@@ -1,0 +1,27 @@
+{
+  "name": "requestjs",
+  "main": "requestjs.js",
+  "homepage": "https://github.com/nehmeroumani/requestjs",
+  "authors": [
+    "Nehme Roumani <nehmeroumani@gmail.com>"
+  ],
+  "description": "AJAX REQUEST SIMPLIFYER",
+  "keywords": [
+    "ajax",
+    "request",
+    "requestjs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "version": "1.0.0",
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "requirejs": "^2.2.0"
+  }
+}
