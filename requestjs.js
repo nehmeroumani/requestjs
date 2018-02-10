@@ -85,7 +85,7 @@ define('requestjs', ["jquery"], function ($) {
                 var self = this;
                 if (this._onFailure) {
                     this.xhrOptions.error = function (xhr, status, err) {
-                        self._onFailure(xhr.responseJSON);
+                        self._onFailure(xhr.responseJSON, xhr.status, xhr);
                     };
                 }
 
